@@ -1,0 +1,21 @@
+object frmMain: TfrmMain
+  Left = 571
+  Height = 240
+  Top = 217
+  Width = 320
+  Caption = 'frmMain'
+  OnClick = FormClick
+  LCLVersion = '2.1.0.0'
+  object ActionList1: TActionList
+    Left = 109
+    Top = 60
+    object ActCreateBtn: TAction
+      Caption = 'ActCreateBtn'
+      OnExecute = ActCreateBtnExecute
+    end
+    object ActKillBtn: TAction
+      Caption = 'ActKillBtn'
+      OnExecute = ActKillBtnExecute
+    end
+  end
+end
